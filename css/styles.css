@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Outline&family=Hanalei+Fill&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+
+
+:root {
+    --primary-color: #dff3e3;
+    --secondary-color: #4e8d7c;
+    --tertiary-color: #86aba1;
+    }
+
+
+body {
+    text-align: center;
+    /* font-family: 'Hanalei Fill', cursive; */
+    /* font-family: 'Bungee Outline', cursive; */
+    font-family: 'Russo One', sans-serif;
+    color: var(--tertiary-color);
+    background-color: var(--primary-color);
+    font-size: 30px;
+}
+
+.gui,.cli, .react{
+    border: 2px solid white;
+    width: fit-content;
+    margin: 1rem auto;
+    padding: 2rem;
+    font-size: 30px;
+    display: inline-block;
+}
+
+#primeNumber img {
+    height: 20%;
+    width: 20%;
+    
+}
+
+a {
+    text-decoration:none;
+    color: var(--secondary-color);
+    border: 1px solid var(--secondary-color);
+    margin: 1rem auto;
+    padding: 1rem;
+    display: block;
+    width: fit-content;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+button {
+    display: block;
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+    padding: 1rem;
+    margin: 1rem auto;
+    border-radius: 25px;
+}
+
+input {
+    padding: 1rem;
+    margin: 1rem auto;
+    color: var(--secondary-color);
+    background: transparent;
+}
+
+
+
